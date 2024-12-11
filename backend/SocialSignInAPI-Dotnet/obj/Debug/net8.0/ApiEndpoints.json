@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "SocialSignInAPI.Controllers.AuthController",
+    "Method": "ExternalLoginCallback",
+    "RelativePath": "api/auth/external-callback",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SocialSignInAPI.Controllers.AuthController",
+    "Method": "ExternalLogin",
+    "RelativePath": "api/auth/external-login/{provider}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "provider",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SocialSignInAPI.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
